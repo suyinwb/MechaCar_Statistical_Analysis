@@ -14,7 +14,6 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 
 ## Overview of Project
 
-
 ### Purpose
 
 Deliverable 1: Linear Regression to Predict MPG
@@ -32,10 +31,12 @@ Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
 
 #### 2. Identify the Datasource
+* MechaCar_mpg.csv
+* Suspension_Coil.csv
 
 
 ### 3. Define Strategy & Metrics
-**Resource:** R, Python, Pandas, Jupyter Notebook
+**Resource:** R, dplyr
 
 #### 4. Data Retrieval Plan
 Stated in [2. Identify the Datasource](#2-identify-the-datasource)
