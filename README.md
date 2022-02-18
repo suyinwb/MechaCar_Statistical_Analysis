@@ -109,7 +109,7 @@ The total variance of the suspension coils is 62.29 for all manufacturing lots i
 ![Group_by](resources/group_by.png)
 
 Variance of the suspension coils must not exceed 100 pounds per square inch.
-Lots 1 and 1 are within the designs specifications.
+Lots 1 and 2 are within the design specifications.
 Lot 3 variance for suspension coils is 170.28, which exceeds 100 pounds per square inch. Therefore Lot 3 did not meet design specifications.
 
 ## T-Tests on Suspension Coils
