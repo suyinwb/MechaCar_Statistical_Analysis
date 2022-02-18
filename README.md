@@ -175,24 +175,30 @@ The p-value is above our significance level. Therefore, we do not have sufficien
 The p-value is below our significance level. Therefore, we have sufficient evidence to reject the null hypothesis, and the two means are statistically different.
 
 
-
 ## Study Design: MechaCar vs Competition
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+1. What metric or metrics are you going to test?
+Costs:
+Fuel Efficiency & Horse power:
+Maintenance Cost:
+Safety Rating:
+2. What is the null hypothesis or alternative hypothesis?
+3. What statistical test would you use to test the hypothesis? And why?
+4. What data is needed to run the statistical test?
 
 
 ## Appendix
 
-
 Hypothesis Testing in Five Steps
+
 Regardless of the complexity of the dataset or the proposed question, hypothesis testing uses the same five steps:
 
-Generate a null hypothesis, its corresponding alternate hypothesis, and the significance level.
-Identify a statistical analysis to assess the truth of the null hypothesis.
-Compute the p-value using statistical analysis.
-Compare p-value to the significance level.
-Reject (or fail to reject) the null hypothesis and generate the conclusion.
-Keep in mind that the null and alternate hypotheses are used to explain one of two outcomes from our proposed question, and both are mutually exclusive and exhaustive. In other words, no matter what, one of these statements must be used to explain our analysis results.
+1. Generate a null hypothesis, its corresponding alternate hypothesis, and the significance level.
+1. Identify a statistical analysis to assess the truth of the null hypothesis.
+1. Compute the p-value using statistical analysis.
+1. Compare p-value to the significance level.
+1. Reject (or fail to reject) the null hypothesis and generate the conclusion.
+1. Keep in mind that the null and alternate hypotheses are used to explain one of two outcomes from our proposed question, and both are mutually exclusive and exhaustive.
+
+In other words, no matter what, one of these statements must be used to explain our analysis results.
