@@ -126,11 +126,22 @@ Lot 3 variance for suspension coils is 170.28, which exceeds 100 pounds per squa
 ![All lots](resources/all_lots_graph.png)
 
 Normal distribution, or normality, is commonly referred to as "the bell curve," and describes a dataset where values farther from its mean occur less frequently than values closer to its mean.
-The distribution of the suspension coil is visualised with a density plot which shows an even and normal distribution.
+The distribution of the suspension coil is visualised with a density plot which assumes an approximate normal distribution with the bell curve. 
 
 >All Lots
 
 ![All lots](resources/all_lots.png)
+
+
+
+data:  Suspension_Coil$PSI
+t = -1.8931, df = 149, p-value = 0.06028
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1497.507 1500.053
+sample estimates:
+mean of x
+  1498.78
 
 
 >Lot 1
