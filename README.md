@@ -116,12 +116,14 @@ Lot 3 variance for suspension coils is 170.28, which exceeds 100 pounds per squa
 
 ## T-Tests on Suspension Coils
 
+1. Determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
 * H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
 * Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
 
->All lots
+>All Lots Graph
 
-![All lots](resources/all_lots.png)
+![All lots](resources/all_lots_graph.png)
 
 
 
