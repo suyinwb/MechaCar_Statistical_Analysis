@@ -182,8 +182,8 @@ Write a short description of a statistical study that can quantify how the Mecha
 * Selling Price: Costs of buying the car
 * Cost of Ownership (Maintenance Cost & Fuel Efficiency): Long term costs to owning the car for its estimated lifetime
 * Safety Rating:
- - crashworthiness — how well a vehicle protects its occupants in a crash
-  - crash avoidance and mitigation — technology that can prevent a crash or lessen its severity
+  * crashworthiness — how well a vehicle protects its occupants in a crash
+  * crash avoidance and mitigation — technology that can prevent a crash or lessen its severity
 
 2. What is the null hypothesis or alternative hypothesis?
 3. What statistical test would you use to test the hypothesis? And why?
