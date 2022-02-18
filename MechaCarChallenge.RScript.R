@@ -39,4 +39,10 @@ lot_summary <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(
 #determine if the PSI across all manufacturing lots is statistically different 
 #from the population mean of 1,500 pounds per square inch.
 
+plt <- ggplot(Suspension_Coil, aes(x=log10(PSI)))
+plt + geom_density()
+t.test(Suspension_Coil$PSI, mu = 1500)
 
+t.test(subset(Suspension_Coil, Manufacturing_Lot == "Lot1")$PSI, mu = 1500)
+t.test(subset(Suspension_Coil, Manufacturing_Lot == "Lot2")$PSI, mu = 1500)
+t.test(subset(Suspension_Coil, Manufacturing_Lot == "Lot3")$PSI, mu = 1500)
