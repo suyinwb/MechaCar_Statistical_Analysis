@@ -57,31 +57,43 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Summary
 
-H0 : PH = 0.5
-Ha : PH ≠ 0.5
-
 ## Linear Regression to Predict MPG
 
-The variables/coefficients, each Pr(>|t|) value, provided a non-random amount of variance to the mpg values in the dataset.
+1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
->Coefficients
+* H0 : The different variables in the dataset does not predict the mpg of MechaCar prototypes
+* Ha : The different variables in the dataset predicts the mpg of MechaCar prototypes
 
-![Coefficients](resources/coefficients.png)
-
-* vehicle_length : 2.60e-12 (2.60 x 10-12 = 0.00000000000260)
-* vehicle_weight : 0.0776
-* ground clearance : 5.21e-08b (5.21 x 10-8 = 0.0000000521)
+The variables/coefficients below (each Pr(>|t|) value) provided a non-random amount of variance to the mpg values in the dataset.
 
 >LM
 
 ![Multi Linear Regression](resources/linear_regression.png)
 
+* vehicle_length : 2.60e-12 (2.60 x 10-12 = 0.00000000000260)
+* vehicle_weight : 0.0776
+* ground clearance : 5.21e-08b (5.21 x 10-8 = 0.0000000521)
+
+According to results, these variables are statistically unlikely to provide random amounts of variance to the linear model. That means, vehicle_length, vehicle_weight and ground clearance vehicle have a significant impact on mpg.
+
+2. Is the slope of the linear model considered to be zero? Why or why not?
+
+* H0 : The slope of the linear model is zero, or m = 0
+* Ha : The slope of the linear model is not zero, or m ≠ 0
+
+>P-val
+
+![P-Val & R-squared](resources/pval.png)
+
+* p-value : 5.35e-11 (5.35 x 10-11 = 0.0000000000535)
+* Assumed significance level is: 0.05%
+
+The p-value smaller than assumed significance level. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
 
+3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-Is the slope of the linear model considered to be zero? Why or why not?
-
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+From our linear regression model, the r-squared value is 0.71, which means that roughly 71% of the variability of our dependent variable (mpg predictions) is explained using this linear model, which suggests there is a strong positive correlation between MPG and the variables of vehicle length, vehicle weight, spoiler angle, ground clearance, and AWD.
 
 
 
