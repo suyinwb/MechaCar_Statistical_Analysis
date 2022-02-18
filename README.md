@@ -112,7 +112,38 @@ The total variance of the suspension coils is 62.29 for all manufacturing lots i
 
 Variance of the suspension coils must not exceed 100 pounds per square inch.
 Lots 1 and 1 are within the designs specifications.
-Lot 3 variance for suspension coils is 170.28, which exceeds 100 pounds per square inch. Therefore Lot 3 did not meet design specifications. 
+Lot 3 variance for suspension coils is 170.28, which exceeds 100 pounds per square inch. Therefore Lot 3 did not meet design specifications.
+
+## T-Tests on Suspension Coils
+
+* H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+* Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
+
+>All lots
+
+![All lots](resources/all_lots.png)
+
+
+
+>Lot 1
+
+![Lot 1](resources/lot1.png)
+
+>Lot 2
+
+![Lot 2](resources/lot2.png)
+
+>Lot 3
+
+![Lot 3](resources/lot3.png)
+
+## Study Design: MechaCar vs Competition
+
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
+
 
 ## Appendix
 
