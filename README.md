@@ -57,14 +57,26 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Summary
 
-## Linear Regression to Predict MPG
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model.
+H0 : PH = 0.5
+Ha : PH ≠ 0.5
 
+## Linear Regression to Predict MPG
+
+The variables/coefficients, each Pr(>|t|) value, provided a non-random amount of variance to the mpg values in the dataset.
+
+>Coefficients
+
+![Coefficients](resources/coefficients.png)
+
+* vehicle_length : 2.60e-12 (2.60 x 10-12 = 0.00000000000260)
+* vehicle_weight : 0.0776
+* ground clearance : 5.21e-08b (5.21 x 10-8 = 0.0000000521)
 
 >LM
 
 ![Multi Linear Regression](resources/linear_regression.png)
+
+
 
 
 Is the slope of the linear model considered to be zero? Why or why not?
