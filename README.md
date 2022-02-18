@@ -28,7 +28,7 @@ Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
 #### 1. Decomposing the Ask
 
-
+Identify the source of production manufacturing problem for AutosRUs’ newest prototype, the MechaCar.
 
 #### 2. Identify the Datasource
 * MechaCar_mpg.csv
@@ -42,20 +42,19 @@ Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 Stated in [2. Identify the Datasource](#2-identify-the-datasource)
 
 #### 5. Assemble & Clean the Data
-
+NA
 
 #### 6. Analyse for Trends
 
+Only through subset tests are we able to identify Lot 3 as the source of problem for the manufacturing team.
 
 #### 7. Acknowledging Limitations
-
+NA
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
-
-## Summary
 
 ## Linear Regression to Predict MPG
 
@@ -174,6 +173,7 @@ The p-value is above our significance level. Therefore, we do not have sufficien
 
 The p-value is _**below our significance level**_. Therefore, we have sufficient evidence to _**reject the null hypothesis**_, and the two means are _**statistically different.**_
 
+## Summary
 
 ## Study Design: MechaCar vs Competition
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
