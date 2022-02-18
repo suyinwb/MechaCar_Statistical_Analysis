@@ -125,6 +125,9 @@ Lot 3 variance for suspension coils is 170.28, which exceeds 100 pounds per squa
 
 ![All lots](resources/all_lots_graph.png)
 
+>All Lots
+
+![All lots](resources/all_lots.png)
 
 
 >Lot 1
