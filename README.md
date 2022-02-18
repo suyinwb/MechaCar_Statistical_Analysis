@@ -186,9 +186,19 @@ Write a short description of a statistical study that can quantify how the Mecha
   * crash avoidance and mitigation — technology that can prevent a crash or lessen its severity
 
 2. What is the null hypothesis or alternative hypothesis?
-3. What statistical test would you use to test the hypothesis? And why?
-4. What data is needed to run the statistical test?
 
+* H0 : There is no difference in terms of selling price, costs of ownership and safety ratings between AutosRUs’ MechaCar and its competition in the same market segmentation.
+* Ha : There is a difference in terms of either one or all for selling price, costs of ownership and safety ratings between AutosRUs’ MechaCar and its competition in the same market segmentation.
+
+3. What statistical test would you use to test the hypothesis? And why?
+
+Multiple linear regression since there are a few variables and this will give insights for all metrics above.
+
+4. What data is needed to run the statistical test?
+Historical data of competitors for:
+* sold price
+* maintenance costs, frequency of maintenance vs car age, costs of spare parts, fuel consumption / km
+* iihs (Insurance Institute for Highway Safety) ratings and evalutions data. 
 
 ## Appendix
 
