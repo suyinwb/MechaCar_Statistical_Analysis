@@ -88,14 +88,28 @@ According to results, these variables are statistically unlikely to provide rand
 * p-value : 5.35e-11 (5.35 x 10-11 = 0.0000000000535)
 * Assumed significance level is: 0.05%
 
-The p-value smaller than assumed significance level. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
+The p-value is smaller than assumed significance level. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 From our linear regression model, the r-squared value is 0.71, which means that roughly 71% of the variability of our dependent variable (mpg predictions) is explained using this linear model, which suggests there is a strong positive correlation between MPG and the variables of vehicle length, vehicle weight, spoiler angle, ground clearance, and AWD.
 
+## Summary Statistics on Suspension Coils
 
+1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+>Group_by
+
+![Group_by](resources/group_by.png)
+
+The variance of the suspension coils for all three lots was 62.29. This is within MechaCar design specifications.
+
+
+
+>Summarize
+
+![Summarize](resources/summarize.png)
 
 ## Appendix
 
