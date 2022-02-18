@@ -179,10 +179,12 @@ The p-value is _**below our significance level**_. Therefore, we have sufficient
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
 1. What metric or metrics are you going to test?
-Costs:
-Fuel Efficiency & Horse power:
-Maintenance Cost:
-Safety Rating:
+* Selling Price: Costs of buying the car
+* Cost of Ownership (Maintenance Cost & Fuel Efficiency): Long term costs to owning the car for its estimated lifetime
+* Safety Rating:
+ - crashworthiness — how well a vehicle protects its occupants in a crash
+  - crash avoidance and mitigation — technology that can prevent a crash or lessen its severity
+
 2. What is the null hypothesis or alternative hypothesis?
 3. What statistical test would you use to test the hypothesis? And why?
 4. What data is needed to run the statistical test?
