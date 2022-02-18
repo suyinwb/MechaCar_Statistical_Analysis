@@ -198,7 +198,7 @@ Multiple linear regression since there are a few variables and this will give in
 Historical data of competitors for:
 * sold price
 * maintenance costs, frequency of maintenance vs car age, costs of spare parts, fuel consumption / km
-* iihs (Insurance Institute for Highway Safety) ratings and evalutions data. 
+* iihs (Insurance Institute for Highway Safety) ratings and evalutions data. (https://www.iihs.org/ratings/about-our-tests)
 
 ## Appendix
 
