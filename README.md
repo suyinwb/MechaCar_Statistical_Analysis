@@ -126,35 +126,55 @@ Lot 3 variance for suspension coils is 170.28, which exceeds 100 pounds per squa
 ![All lots](resources/all_lots_graph.png)
 
 Normal distribution, or normality, is commonly referred to as "the bell curve," and describes a dataset where values farther from its mean occur less frequently than values closer to its mean.
-The distribution of the suspension coil is visualised with a density plot which assumes an approximate normal distribution with the bell curve. 
+The distribution of the suspension coil is visualised with a density plot which assumes an approximate normal distribution with the bell curve.
+
+5 assumptions:
+1. The input data is numerical and continuous. This is because we are testing the distribution of two datasets.
+2. The sample data was selected randomly from its population data.
+3. The input data is considered to be normally distributed.
+4. The sample size is reasonably large. Generally speaking, this means that the sample data distribution should be similar to its population data distribution.
+5. The variance of the input data should be very similar.
+
+If the p-value is greater than 0.05, the data is considered normally distributed. All models below are using One Sample t-test.
 
 >All Lots
 
 ![All lots](resources/all_lots.png)
 
+* p-value : 0.06028
+* mean: 1498.78 (against 1500)
 
-
-data:  Suspension_Coil$PSI
-t = -1.8931, df = 149, p-value = 0.06028
-alternative hypothesis: true mean is not equal to 1500
-95 percent confidence interval:
- 1497.507 1500.053
-sample estimates:
-mean of x
-  1498.78
-
+The p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
 
 >Lot 1
 
 ![Lot 1](resources/lot1.png)
 
+* p-value : 1
+* mean: 1500 (against 1500)
+
+The p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
+
+
 >Lot 2
 
 ![Lot 2](resources/lot2.png)
 
+* p-value : 0.6072
+* mean: 1500.2 (against 1500)
+
+The p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
+
 >Lot 3
 
 ![Lot 3](resources/lot3.png)
+
+* p-value : 0.04168
+* mean: 1496.14 (against 1500)
+
+The p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
+
+1496.14
 
 ## Study Design: MechaCar vs Competition
 
