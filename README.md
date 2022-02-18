@@ -63,6 +63,7 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Summary
 
+## Linear Regression to Predict MPG
 
 
 ## Appendix

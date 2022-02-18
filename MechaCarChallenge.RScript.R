@@ -10,5 +10,6 @@ MechaCar_mpg <- read.csv('resources/MechaCar_mpg.csv', check.names = F, stringsA
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + 
      ground_clearance + AWD,data=MechaCar_mpg) 
 
+#generate summary statistics
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + 
-             ground_clearance + AWD,data=MechaCar_mpg))#generate summary statistics
+             ground_clearance + AWD,data=MechaCar_mpg))
