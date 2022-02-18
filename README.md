@@ -55,16 +55,22 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
 
-
->Peak Hours
-
-![Peak Hours](resources/peak_hours.png)
-
-
-
 ## Summary
 
 ## Linear Regression to Predict MPG
+Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model.
+
+
+>LM
+
+![Multi Linear Regression](resources/linear_regression.png)
+
+
+Is the slope of the linear model considered to be zero? Why or why not?
+
+Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 
 
 ## Appendix
