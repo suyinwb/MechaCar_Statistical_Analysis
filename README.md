@@ -172,9 +172,9 @@ The p-value is above our significance level. Therefore, we do not have sufficien
 * p-value : 0.04168
 * mean: 1496.14 (against 1500)
 
-The p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
+The p-value is below our significance level. Therefore, we have sufficient evidence to reject the null hypothesis, and the two means are statistically different.
 
-1496.14
+
 
 ## Study Design: MechaCar vs Competition
 
